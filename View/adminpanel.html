@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="adminpanel.css">
+    <title>Admin panel</title>
+</head>
+
+<body>
+    <button id="homepagebtn">
+    <a id="homepage" href="anasayfa.html">ANASAYFA</a>
+</button>
+    <div id="container">
+        <div id="yükleme">
+            <ul>
+                <li>
+                    <b class="bupdate">Ürün:</b>
+                    <input class="txtupdate" id="name" type="text">
+                </li>
+                <li>
+                    <b class="bupdate">Fiyat:</b>
+                    <input class="txtupdate" id="fiyat" type="text">
+                </li>
+                <li><b class="bupdate">Fotoğraf:</b>
+                    <input class="txtupdate" id="foto" type='file' onchange="previewFile()">
+                </li>
+                <li>
+                    <b class="bupdate">Adet:</b>
+                    <input class="txtupdate adet" id="adet" type="text">
+                    <button id="update" onclick="update()">Yükle</button>
+                </li>
+                <li>
+                    <img class="bupdate" id="myImg" src="#" alt="your image" height=200 width=100>
+                </li>
+            </ul>
+        </div>
+        <div id="düzenle">
+            <table id="mytbladmin">
+                <th>Ürün adet:</th>
+                <th>Ürün fiyat:</th>
+                <th>Ürün fotoğraf:</th>
+                <th>Ürün ad:</th>
+                <th>Düzenle:</th>
+                <th>Sil:</th>
+            </table>
+        </div>
+    </div>
+    <div id="güncelledv" style="display: none;">
+        <b id="ürünid" style="display: none;"></b>
+        <i class="fas fa-times" onclick="kapatGüncelleme()"></i>
+        <img width="50px" src="" id="avatar" alt="">
+        <b class="ikinci">AD:</b>
+        <input type="text" id="gncadtxt" class="txt" placeholder="ad">
+        <br>
+        <b class="ikinci">FİYAT:</b>
+        <input type="text" id="gncfyttxt" class="txt" placeholder="fiyat">
+        <br>
+        <b class="ikinci">ADET:</b>
+        <input type="text" id="gncadttxt" class="txt" placeholder="adet">
+        <br>
+        <b class="ikinci">FOTOĞRAF:</b>
+        <input type="file" class="txt" id="gnclfoto" onchange="dönüştür()">
+        <br>
+        <button id="güncellebtn" onclick="kaydet()">Kaydet</button>
+    </div>
+    <script src="alıştırmalar\E-ticaret\services\scriptlogin.js"></script>
+    <script src="../../E-ticaret/services/adminpanel.js"></script>
+    <script src="../Controller/adminpanelcnt.js"></script>
+    <script src="https://kit.fontawesome.com/1ad32e192e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

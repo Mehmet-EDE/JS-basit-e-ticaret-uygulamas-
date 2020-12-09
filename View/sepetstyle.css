@@ -1,0 +1,148 @@
+body {
+    background: #55b1bb;
+}
+
+#sepet {
+    width: 750px;
+    height: 750px auto;
+}
+
+#tbl {
+    margin: 15px;
+    padding: 10px;
+    width: 55%;
+}
+
+#mytbl2,
+tr,
+tbody {
+    border-bottom: 1px #dddddd;
+}
+
+th {
+    background: #009879;
+    color: whitesmoke;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+td {
+    margin: 5px;
+    width: 95px;
+    font-size: 25px;
+    color: white;
+    background: #4b6584;
+}
+
+.txt {
+    left: 35px;
+    width: 20px;
+    margin: 0;
+}
+
+#artır {
+    margin: 0;
+}
+
+#buy {
+    position: relative;
+    margin: 5px;
+    left: 490px;
+    border-radius: 25px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #4b6584;
+    color: white;
+    border: 2px solid #003366;
+    box-shadow: 0 0 10px black;
+}
+
+#hesapla {
+    position: relative;
+    right: 80px;
+    margin: 5px;
+}
+
+#snc2 {
+    position: relative;
+    right: 90px;
+    color: whitesmoke;
+    font-size: 1.5rem;
+}
+
+#sil {
+    position: relative;
+    left: 280px;
+    border-radius: 25px;
+    height: 35px;
+    font-size: 15px;
+    font-weight: 600;
+    background: #4b6584;
+    color: white;
+    border: 2px solid #003366;
+    box-shadow: 0 0 10px black;
+}
+
+.adet {
+    width: 15%;
+}
+
+.btnedit {
+    background: #b1b1b1;
+    width: 25px;
+    height: 23px;
+    font-size: 15px;
+    color: black;
+    border: none;
+    opacity: 0.5;
+    border-radius: 3px;
+    margin: 0;
+    outline: none;
+}
+
+.btnedit:hover {
+    transition: 0.3s;
+    box-shadow: 3px 1px 10px #333300;
+    opacity: 1;
+    border-radius: 8px;
+}
+
+.btndelete {
+    height: 35px;
+    width: 50px;
+    font-size: 1.8rem;
+    border-radius: .5rem;
+    background-color: cadetblue;
+    color: black;
+    border: 2px solid #58B19F;
+}
+
+.txt {
+    background: transparent;
+    color: white;
+    border: none;
+    text-align: center;
+    cursor: auto;
+    outline: none;
+}
+
+.homepage {
+    color: white;
+    text-decoration: none;
+    background: #b1b1b1;
+    border: none;
+    height: 25px;
+    border-radius: 15px;
+}
+
+.homepagebtn {
+    color: white;
+    text-decoration: none;
+    background: #b1b1b1;
+    border: none;
+    height: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 5px black;
+    margin: 5px;
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="anasayfastyle.css">
+    <title>ANASAYFA</title>
+</head>
+
+<body>
+    <div class="banner">
+        <img w src="" alt="">
+        <button id="sepet" onclick="sepet()">Sepet</button>
+        <button id="logout" onclick="logOut()">Çıkış yap</button>
+        <p id="kullanıcı">Kullnaıcı adı:</p>
+    </div>
+    <div class="ürünlist" onload="listele(this)">
+        <table id="mytbl">
+            <tr>
+                <th>Ürün fiyat:</th>
+                <th>Ürün fotoğraf:</th>
+                <th>Ürün ad:</th>
+                <th>Satın al:</th>
+            </tr>
+        </table>
+    </div>
+    <script src="alıştırmalar\E-ticaret\services\scriptlogin.js"></script>
+    <script src="../Controller/anasayfascript.js"></script>
+    <script src="../services/anasayfaservice.js"></script>
+    <script src="../services/adminpanel.js"></script>
+    <script src="../services/sepetservice.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+body {
+    padding: 0;
+    font-family: fantasy;
+    background: #2c3e50;
+}
+
+.box {
+    width: 350px;
+    padding: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #192a56;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.box h1 {
+    color: white;
+    font-weight: 500;
+}
+
+.box input[type="text"],
+.box input[type="password"],
+#kullanıcıadı,
+#pass,
+#mail,
+#kaydet {
+    border: 15;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #00a8ff;
+    padding: 14px 10px;
+    width: 250px;
+    outline: inherit;
+    color: white;
+    border-radius: 50px;
+    transition: 0.5s;
+    font-size: 25px;
+}
+
+.box input[type="text"]:focus,
+#kullanıcıadı:focus,
+#pass:focus,
+#mail:focus,
+.box input[type="password"]:focus {
+    width: 300px;
+    border-color: #c23616;
+}
+
+.box input[type="submit"],
+.box input[type="button"],
+#kullanıcıadı,
+#pass,
+#mail,
+#kaydet {
+    border: 15;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #00a8ff;
+    padding: 14px 10px;
+    outline: inherit;
+    color: white;
+    border-radius: 50px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.box input[type="button"]:hover,
+#kaydet:hover {
+    transition: 0.3s;
+    border: solid #c23616;
+    background: #00a8ff;
+    width: 100px;
+}
+
+#kayıt {
+    transition: 0.9s;
+    width: 350px;
+    padding: 75px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #192a56;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.fas {
+    position: relative;
+    color: white;
+    font-size: 35px;
+    bottom: 60px;
+    left: 210px;
+    transition: 0.3s;
+}
+
+.fas:hover {
+    transform: rotate(180deg);
+}
+
+h1 {
+    color: white;
+}

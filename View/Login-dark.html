@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>animasyonlu login ekranı</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+
+<body>
+    <form class="box" id="login" method="post">
+        <h1>LOGIN</h1>
+        <input id="username" type="text" name="" required="" placeholder="Username:">
+        <input id="password" type="password" name="" required="" placeholder="Password:">
+        <input onclick="giriş()" type="button" name="" required="" value="LOGIN">
+        <input type="button" id="kaydol" onclick="kayıtEkranı()" value="Kayıt ol">
+    </form>
+    <div id="kayıt" style="display: none;">
+        <h1>Kayıt Formu</h1>
+        <i class="fas fa-times" onclick="kapat()"></i>
+        <input type="email" required="" id="mail" placeholder="E-mail">
+        <input type="text" required="" id="kullanıcıadı" placeholder="Kullanıcı adı.">
+        <input type="password" required="" id="pass" placeholder="Şifre">
+        <button onclick="kaydet()" id="kaydet">Kaydet</button>
+    </div>
+    <script src="alıştırmalar\E-ticaret\services\scriptlogin.js"></script>
+    <script src="alıştırmalar\E-ticaret\Controller\scriptloginjs.js"></script>
+    <script src="https://kit.fontawesome.com/1ad32e192e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

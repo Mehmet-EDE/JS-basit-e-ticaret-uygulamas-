@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="sepetstyle.css">
+    <title>SEPET</title>
+</head>
+
+<body onload="listele()">
+    <div id="sepet">
+        <button class="homepagebtn"><a class="homepage" href="anasayfa.html">ANASAYFA</a></button>
+        <table id="mytbl2" style="width: 100%;">
+            <tr>
+                <th>Ürün adet:</th>
+                <!-- <th>Stok:</th> -->
+                <th>Ürün fiyat:</th>
+                <th>Ürün fotoğraf:</th>
+                <th>Ürün ad:</th>
+                <th>Seç:</th>
+                <th>Toplam:</th>
+            </tr>
+        </table>
+    </div>
+    <button id="buy" onclick="satınal()">Satın al</button>
+    <button id="sil" onclick="allclear()">Sepeti Temizle</button>
+    <b id="snc2">Tutar: </b>
+    <script src="alıştırmalar\E-ticaret\services\scriptlogin.js"></script>
+    <script src="../Controller/sepetcnt.js"></script>
+    <script src="../services/anasayfaservice.js"></script>
+    <script src="../services/adminpanel.js"></script>
+    <script src="../services/sepetservice.js"></script>
+</body>
+
+</html>
